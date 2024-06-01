@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import Button from "./components/button/Button";
+import Card from "./components/card/Card";
+import CardList from "./components/card/CardList";
+// import Toggle from "./components/state/Toggle";
+// import Game from "./components/tictactoe/Game";
+// import YoutubeList from "./components/youtube/YoutubeList";
 
-function App() {
+function App(props) {
+  console.log(props);
+  // const name = "Oscar Rio";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // Bai Tap Youtube
+    // <YoutubeList>
+    //   {name}
+    //   {/* children props: co the html, component, text, variable */}
+    // </YoutubeList>
+    // Bai Tap Button Toggle
+    // <Toggle></Toggle>
+    // Bai Tap Game TicTacToe
+    // <Game></Game>
+    // Bai Tap Nut Button SCSS
+    // <div>
+    //   <Button>Primary</Button>
+    //   <Button className="button--secondary">Secondary</Button>
+    // </div>
+    // Bai Tap But Button Module Css
+    // <div>
+    //   <Button>Primary</Button>
+    //   <Button secondary>Secondary</Button>
+    // </div>
+    //Bai Tap Card
+    // <CardList>
+    //   <Card></Card>
+    //   <Card></Card>
+    //   <Card></Card>
+    //   <Card></Card>
+    //   <Card></Card>
+    //   <Card></Card>
+    // </CardList>
+    <h1 class="text-3xl font-bold underline">Hello world!</h1>
   );
 }
 
